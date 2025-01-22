@@ -14,7 +14,7 @@ if fight == "1":
     if whotobeton1 == "jake":
         howmuch1 = int(input("how much do you wanna bet?: "))
         if howmuch1 <= 0:
-            print("Please enter a valid positive amount.")
+            print("please enter a positive amount.")
         elif howmuch1 <= money:
             print(f"you have betted {howmuch1} dollars on jake")
             whowon1 = random.choice(results1)
@@ -33,7 +33,7 @@ if fight == "1":
     elif whotobeton1 == "mike":
         howmuch1 = int(input("how much do you wanna bet?:"))
         if howmuch1 <= 0:
-            print("Please enter a valid positive amount.")
+            print("please enter a positive amount.")
         elif howmuch1 <= money:
             print(f"you have betted {howmuch1} dollars on mike")
             whowon1 = random.choice(results1)
@@ -57,7 +57,7 @@ elif fight == "2":
     if whotobeton2 == "canelo":
         howmuch2 = int(input("How much do you wanna bet?: "))
         if howmuch2 <= 0:
-            print("Please enter a valid positive amount.")
+            print("please enter a positive amount.")
         elif howmuch2 <= money:
             print(f"you better {howmuch2} on canelo")
             whowon2 = random.choice(results2)
@@ -76,7 +76,7 @@ elif fight == "2":
     elif whotobeton2 == "floyd":
         howmuch2 = int(input("how much do you want to bet?: "))
         if howmuch2 <= 0:
-            print("Please enter a valid positive amount.")
+            print("please enter a positive amount.")
         elif howmuch2 <= money:
             print(f"you bet {howmuch2} on floyd")
             whowon2 = random.choice(results2)
@@ -100,7 +100,7 @@ elif fight == "3":
     if whotobeton3 == "logan":
         howmuch3 = int(input("how much do you wanna bet?: "))
         if howmuch3 <= 0:
-            print("Please enter a valid positive amount.")
+            print("please enter a positive amount.")
         elif howmuch3 <= money:
             print(f"you have betted {howmuch3} on logan")
             whowon3 = random.choice(results3)
@@ -119,7 +119,7 @@ elif fight == "3":
     elif whotobeton3 == "conor":
         howmuch3 = int(input("how much do you wanna bet?: "))
         if howmuch3 <= 0:
-            print("Please enter a valid positive amount.")
+            print("Please enter a positive amount.")
         elif howmuch3 <= money:
             print(f"you have betted {howmuch3} on conor")
             whowon3 = random.choice(results3)
